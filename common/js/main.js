@@ -79,3 +79,14 @@ swiperMain.on("slideChange", function () {
     header.classList.remove("white")
   }
 })
+header.addEventListener("mouseenter",function(){
+  header.classList.remove("white")
+})
+header.addEventListener("mouseleave",function(){
+  indexNow = swiperMain.activeIndex;
+  if (indexNow == 0) {
+    header.classList.add("white")
+  } else {
+    header.classList.remove("white")
+  }
+})
