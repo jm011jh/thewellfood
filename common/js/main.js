@@ -9,7 +9,7 @@ var swiperMain = new Swiper(".mainSwiper", {
     clickable: true,
   },
 });
-var swiperSub = new Swiper(".subSwiper0", {
+var swiperSub1 = new Swiper(".subSwiper0", {
   // slidesPerView: "auto",
   speed: 800,
   effect: "fade",
@@ -22,7 +22,7 @@ var swiperSub = new Swiper(".subSwiper0", {
     prevEl: ".swiper-button-prev-sub0",
   },
 });
-var swiperSub = new Swiper(".subSwiper1", {
+var swiperSub2 = new Swiper(".subSwiper1", {
   // slidesPerView: "auto",
   speed: 800,
   effect: "fade",
@@ -35,7 +35,7 @@ var swiperSub = new Swiper(".subSwiper1", {
     prevEl: ".swiper-button-prev-sub1",
   },
 });
-var swiperSub = new Swiper(".subSwiper2", {
+var swiperSub3 = new Swiper(".subSwiper2", {
   // slidesPerView: "auto",
   speed: 800,
   effect: "fade",
@@ -48,7 +48,7 @@ var swiperSub = new Swiper(".subSwiper2", {
     prevEl: ".swiper-button-prev-sub2",
   },
 });
-var swiperSub = new Swiper(".subSwiper3", {
+var swiperSub4 = new Swiper(".subSwiper3", {
   // slidesPerView: "auto",
   speed: 800,
   effect: "fade",
