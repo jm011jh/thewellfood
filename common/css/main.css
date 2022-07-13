@@ -97,4 +97,7 @@ body{height: 100vh;}
     .slide4 .subSwiper .swiper-slide ul li{width: calc(100% / 3);}
     .slide4 .subSwiper .swiper-slide ul li:nth-child(4),
     .slide4 .subSwiper .swiper-slide ul li:nth-child(5){transform: translate(0,-13.5%);}
+
+    .swiper-pagination-bullet{width: 8px;height: 8px;}
+.swiper-pagination-bullet:not(:last-child){margin-right: 8px;}
 }
