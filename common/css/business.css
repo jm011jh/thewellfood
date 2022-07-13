@@ -5,7 +5,7 @@
 .bs--swiper .swiper-slide ul{display: flex;justify-content: center;flex-wrap: wrap;}
 
 .bs--swiper .swiper-pagination-bs{position: static;margin-top: 30px;}
-.bs--swiper .swiper-pagination-bs .swiper-pagination-bullet{width: 12px;height: 12px;}
+.bs--swiper .swiper-pagination-bs .swiper-pagination-bullet{width: 12px;height: 12px;margin:0 6px;}
 
 
 .bs--swiper .swiper-button-prev-bs,
@@ -28,6 +28,7 @@
 .bs--swiper1 .swiper-slide ul li{width: 20%;max-width: 200px;}
 .bs--swiper1 .swiper-slide ul li img{width: 100%;}
 @media all and (max-width:767px) {
+    .bs--swiper .swiper-pagination-bs .swiper-pagination-bullet{width: 8px;height: 8px;margin: 0 4px;}
     .bs--swiper{margin-bottom: 40px;margin-top: 100px;}
     .bs--swiper1 .swiper-slide ul li{width: calc(100% / 3);}
     .bs--swiper1 .swiper-slide ul li:nth-child(4),
